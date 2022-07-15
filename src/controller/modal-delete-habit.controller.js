@@ -7,10 +7,10 @@ export default class ModalDeleteHabit {
   
   static render(id) {
     
-      const link    = document.createElement("link")
-      link.rel ="stylesheet"
-      link.href = "../css/modal-delete-habit.css"
-      this.head.appendChild(link)
+      // const link    = document.createElement("link")
+      // link.rel ="stylesheet"
+      // link.href = "../css/modal-delete-habit.css"
+      // this.head.appendChild(link)
 
       const containerMain    = document.createElement("div")
       containerMain.classList.add("container")

@@ -11,10 +11,10 @@ export default class ModalCreateHabit {
     
     const link = document.createElement('link')
 
-    this.head.append(link)
-    link.rel = 'stylesheet'
-    link.href = '../css/modal-create-habit.css'
-    link.type = 'text.css' 
+    // this.head.append(link)
+    // link.rel = 'stylesheet'
+    // link.href = '../css/modal-create-habit.css'
+    // link.type = 'text.css' 
 
     const modalBackground = document.createElement('div')
     const divModalCreateHabit = document.createElement('div')
